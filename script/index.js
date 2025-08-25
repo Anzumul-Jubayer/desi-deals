@@ -53,6 +53,17 @@ getElement('reset-btn').addEventListener('click',function(){
 
 })
 
+// failed purchase
+function purchaseConfirm() {
+  const cartContainer = getElement("cart-container");
+
+  if (cartContainer.children.length === 0) {
+    alert("Please add product");
+  } else {
+    alert("Purchase confirm");
+   
+  }
+}
 
 
 
