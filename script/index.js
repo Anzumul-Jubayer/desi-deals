@@ -48,6 +48,8 @@ for (let cartButton of cartButtons) {
 getElement('reset-btn').addEventListener('click',function(){
           const cartContainer=getElement('cart-container')
           cartContainer.innerHTML=""
+            getElement("total-price").innerText = 0
+          getElement("quantity").innerText = 0
 
 })
 
