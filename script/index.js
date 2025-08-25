@@ -44,6 +44,12 @@ for (let cartButton of cartButtons) {
   });
 }
 
+// add clear
+getElement('reset-btn').addEventListener('click',function(){
+          const cartContainer=getElement('cart-container')
+          cartContainer.innerHTML=""
+
+})
 
 
 
